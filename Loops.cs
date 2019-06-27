@@ -18,7 +18,7 @@ do
 while (count < 100);
 
 // Common loop for statement
-// Initionalise counter first to 0
+// Initiate counter first to 0
 // Counter for condition until less than 10
 // For iterator counter ++ specifies how to modify loop var after executing block following statement
 for (int CountLoop = 0; CountLoop < 10; CountLoop++)
