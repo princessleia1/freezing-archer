@@ -41,7 +41,7 @@ foreach (var name in names)
 
 // Lists of other types
 // Create list of integers set first two integers to value 1
-// Each next Fibonacci number found by taking the sum of  previous 2 numbers
+// Each next Fibonacci number found by taking sum of previous 2 numbers
 
 var fibonacciNumbers = new List<int> {1, 1};
 var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
