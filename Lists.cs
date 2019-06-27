@@ -38,3 +38,31 @@ foreach (var name in names)
 {
     Console.WriteLine($"8. Hi Jedi {name.ToUpper()}!");
 }
+
+// Lists of other types
+// Create list of integers set first two integers to value 1
+// Each next Fibonacci number found by taking the sum of  previous 2 numbers
+
+var fibonacciNumbers = new List<int> {1, 1};
+var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+fibonacciNumbers.Add(previous + previous2);
+
+foreach(var item in fibonacciNumbers)
+    Console.WriteLine(item);
+
+// Generate first 20 numbers in Fibonacci sequence
+// Each iteration of loop take last 2 integers in the list, sum them and add value to list
+// Loop repeats until added 20 items to list
+var fibonacciNumbers = new List<int> {1, 1};
+
+while (fibonacciNumbers.Count < 20)
+{
+    var previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+    var previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+fibonacciNumbers.Add(previous + previous2);
+}
+foreach(var item in fibonacciNumbers)
+    Console.WriteLine(item);
