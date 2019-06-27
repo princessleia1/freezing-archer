@@ -11,3 +11,8 @@ decimal min = decimal.MinValue;
 decimal max = decimal.MinValue;
 // type with greater precision
 Console.WriteLine($"Range of decimal type is {min} to {max}");
+
+double radius = 2.50;
+double area = Math.PI * radius * radius;
+Console.WriteLine(area);
+Console.WriteLine($"Calculation of circle: {area}");
