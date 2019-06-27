@@ -1,7 +1,5 @@
-// Loops for counter operations
-// While statement keeps checking condition and executing statements until condition is false
-// Ensure while loop condition reaches a false
-// New operator ++ increment
+// While statement keeps checking condition, executing statements until condition false
+// Ensure while loop condition reaches false, new operator ++ increment
 int counter = 0;
 while (counter < 10)
 {
@@ -22,8 +20,7 @@ while (count < 100);
 // Common loop for statement
 // Initionalise counter first to 0
 // Counter for condition until less than 10
-// For iterator counter ++ specifies how to modify loop var after executing
-// block following for statement
+// For iterator counter ++ specifies how to modify loop var after executing block following statement
 for (int CountLoop = 0; CountLoop < 10; CountLoop++)
 {
     Console.WriteLine($"1. For loop counter is {CountLoop}.");
