@@ -5,7 +5,7 @@
 int counter = 0;
 while (counter < 10)
 {
-  Console.WriteLine($"Use loops to repeat operations, counter is {counter}.");
+  Console.WriteLine($"1. Use loops to repeat operations, counter is {counter}.");
   counter++;
 }
 
@@ -14,7 +14,7 @@ while (counter < 10)
 int count = 0;
 do
 {
-    Console.WriteLine($"Counter is {count}.");
+    Console.WriteLine($"2. Counter is {count}.");
     count++;
 }
 while (count < 100);
@@ -24,13 +24,25 @@ while (count < 100);
 // Counter for condition until less than 10
 // For iterator counter ++ specifies how to modify loop var after executing
 // block following for statement
-for (int countLoop = 0; countLoop < 10; countLoop++)
+for (int CountLoop = 0; CountLoop < 10; CountLoop++)
 {
-    Console.WriteLine($"For loop counter is {countLoop}.");
+    Console.WriteLine($"1. For loop counter is {CountLoop}.");
 }
 
 // Change initialiser to start at diff value and condition to stop at diff value
-for (int countValue = 99; countValue < 199; countValue++)
+for (int CountValue = 99; CountValue < 199; CountValue++)
 {
-    Console.WriteLine($"For loop counter is {countValue}.");
+    Console.WriteLine($"2. For loop counter is {CountValue}.");
 }
+
+// Find sum of all integers 1 through 20 divisible by 3
+int sum = 0;
+
+for (int number = 1; number < 21; number ++)
+{
+   if (number % 3 == 0)
+    {
+        sum = sum + number;
+    }
+}
+Console.WriteLine($"3. Sum is {sum}.");
