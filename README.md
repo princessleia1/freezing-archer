@@ -10,3 +10,7 @@
 
 * Requires Microsoft .NET Core App 2.1.0 SDK Installed. 
 * Download [Microsoft .NET Core V2.1.0](https://dotnet.microsoft.com/download/dotnet-core/2.1).
+
+<p align="middle">
+  <img width="80" height="80" src=./resources/icon.png>
+</p>
