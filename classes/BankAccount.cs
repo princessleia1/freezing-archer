@@ -38,7 +38,7 @@ namespace classes
             var deposit = new Transaction(amount, date, note);
             allTransactions.Add(deposit);
         }
-
+        // Define method for withdrawal and create exceptions
         public void MakeWithdrawal(decimal amount, DateTime date, string note)
         {
             if (amount <= 0)
@@ -47,12 +47,12 @@ namespace classes
             }
             if (Balance - amount < 0)
             {
-                throw new InvalidOperationException("Not Sufficient Funds for this Withdrawal");
+                throw new InvalidOperationException("No Sufficient Funds for this Withdrawal");
             }
             var withdrawal = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawal);
         }
-
+        // Define method for incrementing account number and owner name
         public BankAccount(string name, decimal initialBalance)
         {
             this.Number = accountNumberSeed.ToString();
