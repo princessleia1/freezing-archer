@@ -4,7 +4,10 @@ Glogger is a C# Repo for Micosoft .NET Core Guide Tutorials using .NET Core SDK 
 
 Glogger utilises [C# .NET Framework, Guide and Tutorials](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/).
 
-## Overview
+## SDK and Framework
+Microsoft.NETCore.App 2.1.0 SDK Installed. Download [.NET Core 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1).
+
+### Overview
 - Intro to programming with C#
 - Working in Local Environment
 - Explore String Interpolation 
@@ -18,7 +21,7 @@ Glogger utilises [C# .NET Framework, Guide and Tutorials](https://docs.microsoft
 - Working LINQ
 - Using Attributes.
 
-## C# Concepts
+### C# Concepts
 - C# Type System
 - Namespaces
 - Basic Types
