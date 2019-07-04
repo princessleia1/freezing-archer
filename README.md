@@ -4,9 +4,9 @@
 
 ## Tutorials
 
-* Microsoft Interactive Tutorials can be founder here: [C# Tutorials](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/).
+* Microsoft .NET Interactive Tutorials can be found here: [C# Tutorials](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/).
 
-## SDK/ Framework
+## Framework
 
 * Requires Microsoft .NET Core App 2.1.0 SDK Installed. 
 * Download Here [Microsoft .NET Core V2.1.0](https://dotnet.microsoft.com/download/dotnet-core/2.1).
