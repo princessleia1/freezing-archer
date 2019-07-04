@@ -7,7 +7,6 @@ Glogger utilises [C# .NET Framework, Guide and Tutorials](https://docs.microsoft
 ## Overview
 - Intro to programming with C#
 - Working in Local Environment
-- Explore C# 6
 - Explore String Interpolation 
 - Update Interfaces with Default Interface Members
 - Explore Indexes and Rangers
