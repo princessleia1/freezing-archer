@@ -21,3 +21,4 @@ var inventory = new Dictionary<string, int>()
 
 // Combine alignment specifier and a format string for a single interpolation expression.
 Console.WriteLine($"[{DateTime.Now,-20:d}] Hour [{DateTime.Now,-10:HH}] [{1063.342,15:N2}] feet");
+
