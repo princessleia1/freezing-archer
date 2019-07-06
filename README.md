@@ -4,7 +4,15 @@
 
 ## Tutorials
 
-* Microsoft .NET Interactive Tutorials Online: [Intro to CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/).
+* Microsoft .NET Interactive Tutorials Online: [Intro to CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
+
+* Microsoft .NET Interactive Tutorials Online: [Explore C# 6](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/csharp-6/)
+
+* Microsoft .NET Interactive Tutorials Online: [Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings)
+
+* Microsoft .NET Interactive Tutorials Online: [Indices and Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
+
+* Microsoft .NET Interactive Tutorials Online: [Update Interfaces with Default Interface Members](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
 
 ## Framework
 
