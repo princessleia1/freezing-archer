@@ -9,7 +9,3 @@
 3. Microsoft .NET: [Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings)
 4. Microsoft .NET: [Indices and Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
 5. Microsoft .NET: [Update Interfaces with Default Interface Members](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
-
-<p align="middle">
-  <img width="80" height="80" src=./resources/icon.png>
-</p>
