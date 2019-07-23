@@ -1,6 +1,6 @@
-# Glogger
+# Freezing-Archer
 
-**Glogger** is a C# Repo for Micosoft .NET Core Guide Tutorials using .NET Core SDK CLI Tools.
+**Freezing-Archer** is a C# Repository for Micosoft .NET Core Guide Tutorials using .NET Core SDK CLI Tools.
 
 ## Tutorials
 
