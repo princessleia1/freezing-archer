@@ -14,3 +14,7 @@
 8. Microsoft .NET: Objects
 9. Microsoft .NET: Delegates
 10. Microsoft .NET: Arrays
+
+<p align="middle">
+  <img width="100" height="100" src=logo.png>
+</p>
