@@ -2,13 +2,18 @@
 
 **Freezing-Archer** is a C# Repository for Micosoft .NET Core Guide Tutorials using .NET Core SDK CLI Tools. 
 
-## Tutorials
+## Microsoft .NET C# Tutorials
 
-1. Microsoft .NET: [Intro to CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
-2. Microsoft .NET: [Explore C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/csharp-6/)
-3. Microsoft .NET: [Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings)
-4. Microsoft .NET: [Indices and Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
-5. Microsoft .NET: [REST Client](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient)
+1. [Intro to CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
+2. [Explore C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/csharp-6/)
+3. [Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings)
+4. [Indices and Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
+5. [Console Application](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-teleprompter)
+6. [REST Client](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient)
+7. [Inheritance in C# and .NET](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance)
+8. [Working with LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/working-with-linq)
+9. [Using Attributes in C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/attributes)
+10. [Using Pattern Matching Features](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/pattern-matching)
 
 <p align="middle">
   <img width="100" height="100" src=logo.png>
