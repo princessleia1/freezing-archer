@@ -8,7 +8,7 @@
 2. [Explore C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/csharp-6/)
 3. [Interpolated Strings](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings)
 4. [Indices and Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/ranges-indexes)
-5. [Console Application](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-teleprompter)
+5. [Console Teleprompter](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-teleprompter)
 6. [REST Client](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/console-webapiclient)
 7. [Inheritance in C# and .NET](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance)
 8. [Working with LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/working-with-linq)
