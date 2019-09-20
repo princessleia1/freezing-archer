@@ -1,33 +1,83 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
-using System.Net.Http;
-using System.Net.Http.Headers;
 
-namespace WebAPIClient
+namespace TeleprompterConsole
 {
-     // First version makes a web request to read the list of all repositories return wt a string
-    class Program
+    public class Program
     {
-        // First need object to retrieve data using http client for request/ responses
-        private static readonly HttpClient client = new HttpClient();
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            // Use the Wait method to block and wait for the task to finish
-            ProcessRepositories().Wait();
+            RunTeleprompter().Wait();
         }
 
-        // Use of method to process to  list all repositories under the dotnet org
-        private static async Task ProcessRepositories()
+        private static async Task RunTeleprompter()
         {
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-            client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
+            var config = new TelePrompterConfig();
+            var displayTask = ShowTeleprompter(config);
 
-            var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
-            // Easy return wt a string
-            var msg = await stringTask;
-            Console.Write(msg);
+            var speedTask = GetInput(config);
+            await Task.WhenAny(displayTask, speedTask);
+        }
+
+        // Output asynchronously in one task while running other task of input for speed
+        private static async Task ShowTeleprompter(TelePrompterConfig config)
+        {
+            var words = ReadFrom("sampleQuotes.txt");   // Quotes to read
+            foreach (var word in words)
+            {
+                Console.Write(word);
+                if (!string.IsNullOrWhiteSpace(word))
+                {
+                    await Task.Delay(config.DelayInMilliseconds);
+                }
+            }
+            config.SetDone();
+        }
+
+        // Second asynchronous method to read from the Console with < and > 
+        // Creates a lambda expression to represent an Action delegate that reads a key from the Console 
+        private static async Task GetInput(TelePrompterConfig config)
+        {
+            Action work = () =>
+            {
+                do
+                {
+                    var key = Console.ReadKey(true);
+                    if (key.KeyChar == '>')
+                        config.UpdateDelay(-10);  
+                    else if (key.KeyChar == '<')
+                        config.UpdateDelay(10);
+                    else if (key.KeyChar == 'X' || key.KeyChar == 'x')
+                        config.SetDone();
+                } while (!config.Done);
+            };
+            await Task.Run(work);   // Use await instead of wait keyword 
+        }
+
+        static IEnumerable<string> ReadFrom(string file)
+        {
+            string line;
+            using (var reader = File.OpenText(file))
+            {
+                while ((line = reader.ReadLine()) != null)
+                {
+                    var words = line.Split(' ');
+                    var lineLength = 0;     // Keep track of each line with new line
+                    foreach (var word in words)
+                    {
+                        yield return word + " ";
+                        lineLength += word.Length + 1;
+                        if (lineLength > 70)
+                        {
+                            yield return Environment.NewLine;
+                            lineLength = 0;
+                        }
+                    }
+                    yield return Environment.NewLine;
+                }
+            }
         }
     }
 }
