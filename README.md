@@ -2,7 +2,7 @@
 
 **Freezing-Archer** is a C# Repository for Micosoft .NET Core Guide Tutorials using .NET Core SDK CLI Tools. 
 
-## Microsoft .NET C# Tutorials (Snippets & Examples)
+## Microsoft .NET C# Tutorials
 
 1. [Intro to CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
 2. [Explore C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/csharp-6/)
@@ -16,9 +16,8 @@
 
 ## Build
 
-Build .NET Core examples using .NET Core CLI, installed with [the .NET Core SDK](https://www.microsoft.com/net/download).
-
-Via Visual Studio Code:
+* Build .NET Core examples using .NET Core CLI, installed with [.NET Core SDK](https://www.microsoft.com/net/download).
+* Use Terminal via Visual Studio Code and run the following commands:
 
 ```console
 dotnet new console
