@@ -9,7 +9,7 @@ namespace PatternMatching
 {
     public static class GeometricUtilities
     {
-        #region 04_ClassicSwitch
+        #region switch
         public static string GenerateMessage(params string[] parts)
         {
             switch (parts.Length)
@@ -26,7 +26,7 @@ namespace PatternMatching
         }
         #endregion
 
-        #region 02_ClassicIsExpression
+        #region is pattern classic
         public static double ComputeArea(object shape)
         {
             if (shape is Square)
@@ -46,7 +46,7 @@ namespace PatternMatching
         }
         #endregion
 
-        #region 03_IsPatternExpression
+        #region is pattern
         public static double ComputeAreaModernIs(object shape)
         {
             if (shape is Square s)
@@ -62,7 +62,7 @@ namespace PatternMatching
         }
         #endregion
 
-        #region 05_SwitchTypePattern
+        #region switch type patterns
         public static double ComputeAreaModernSwitch(object shape)
         {
             switch (shape)
@@ -82,7 +82,7 @@ namespace PatternMatching
         #endregion
 
 
-        #region 07_ComputeDegenerateShapes
+        #region compute shapes
         public static double ComputeArea_Version3(object shape)
         {
             switch (shape)
@@ -103,7 +103,7 @@ namespace PatternMatching
         }
         #endregion
 
-        #region 09_AddRectangleAndTriangle
+        #region add rectangle, triangle
         public static double ComputeArea_Version4(object shape)
         {
             switch (shape)
@@ -130,7 +130,7 @@ namespace PatternMatching
         }
         #endregion
 
-        #region 10_NullCase
+        #region null case
         public static double ComputeArea_Version5(object shape)
         {
             switch (shape)
@@ -157,7 +157,7 @@ namespace PatternMatching
                         paramName: nameof(shape));
             }
         }
-        #endregion bla bla
+        #endregion
 
     }
 }
