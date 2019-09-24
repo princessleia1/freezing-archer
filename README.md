@@ -16,7 +16,7 @@
 
 ## Build
 
-* Build .NET Core examples using .NET Core CLI, installed with [.NET Core SDK](https://www.microsoft.com/net/download).
+Build .NET Core examples using .NET Core CLI, installed with [.NET Core SDK](https://www.microsoft.com/net/download).
 
 ```console
 dotnet new console
