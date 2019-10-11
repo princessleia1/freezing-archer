@@ -25,5 +25,5 @@ dotnet run
 ```
 
 <p align="middle">
-  <img width="100" height="100" src=logo.png>
+  <img width="80" height="80" src=logo.png>
 </p>
