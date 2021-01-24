@@ -1,8 +1,8 @@
 # Freezing-Archer
 
-**Freezing-Archer** is a C# 6 Repository for Micosoft .NET Core Tutorials (Snippets/ Examples) using .NET Core SDK CLI Tools. 
+**Freezing-Archer** is a C# Repository for .NET Core Tutorials (Snippets/ Examples) using .NET Core SDK CLI Tools. 
 
-## Microsoft .NET C# Tutorials
+## .NET C# Tutorials
 
 1. [Intro to CSharp](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
 2. [Explore C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/csharp-6/)
